@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    /* tema con tus colores, mételo aquí */
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: '#0f00ff',
+            accent:  '#23264b',
+            darkbg:  '#000401',
+          },
+          fontFamily: {
+            sans: ['Inter','ui-sans-serif','system-ui'],
+          },
+        }
+      }
+    }
+  </script>
+
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portafolio</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

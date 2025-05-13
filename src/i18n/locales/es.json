@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "title": "Hola, soy Amet Marcelo Quispe Espichan",
+    "subtitle": "Ingeniero de Sistemas e Informática y estudiante en 9° ciclo en la UTP. Programador con experiencia en Python, gestión de bases de datos, CI/CD y entornos cloud (Azure, OpenShift, AWS).",
+    "linkedin": "LinkedIn",
+    "email": "Correo electrónico"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "bio1": "Soy <strong>Amet Marcelo Quispe Espichan</strong>, Ingeniero de Sistemas en formación (9° ciclo en UTP) con pasión por desarrollo web, automatización y nube. Diseño arquitecturas limpias y escalables en equipos multidisciplinares.",
+    "professionalPathLabel": "Ruta profesional:",
+    "professionalPath": "Asistente TI en Zherobyte Spa (Nov 2022–Nov 2023), Profesor de Criptografía en Salesland (Sep 2024–Nov 2024) y Azure DevOps Engineer en Digital Solutions 324 (Ene 2025–Mar 2025).",
+    "keySkillsLabel": "Habilidades clave:",
+    "keySkills": "Python, Flask, Vue 3, Laravel, SQL, Docker, Azure, AWS, OpenShift e IA para optimización y seguridad en la nube.",
+    "certificationsTitle": "Certificaciones"
+  },
+  "projects": {
+    "title": "Mis Proyectos",
+    "description": "Aquí hay algunos de mis proyectos recientes. Puedes ver más en mi perfil de GitHub.",
+    "viewMore": "Ver más →"
+  },
+  "skills": {
+    "title": "Habilidades",
+    "description": "Estas son algunas de las tecnologías y herramientas con las que tengo experiencia."
+  },
+  "contact": {
+    "title": "Contacto",
+    "description": "Si deseas ponerte en contacto conmigo, puedes llenar el formulario a continuación o conectarte conmigo a través de redes sociales.",
+    "fields": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "message": "Mensaje"
+    },
+    "sendButton": "Enviar Mensaje",
+    "modalTitle": "¡Mensaje enviado!",
+    "modalMessage": "Gracias por tu mensaje. ¡Te responderé pronto!",
+    "modalClose": "Cerrar"
+  },
+  "timeline": {
+    "Nov 2022–Nov 2023": {
+      "role": "Asistente TI – Zherobyte Spa",
+      "desc": "Proporcioné soporte informático, scripting para automatizar procesos y administración de bases de datos."
+    },
+    "Sep 2024–Nov 2024": {
+      "role": "Profesor de Criptografía – Salesland",
+      "desc": "Impartí clases de criptografía y atendí consultas de clientes."
+    },
+    "Ene 2025–Mar 2025": {
+      "role": "Ingeniero Azure DevOps – Digital Solutions 324",
+      "desc": "Configuré pipelines de CI/CD, AKS, Kubernetes y despliegues en Azure."
+    }
+  },
+  "timelineSection": {
+    "title": "Experiencia laboral"
+  },
+  "footer": {
+    "copy": "© 2025 Amet Marcelo Quispe. Todos los derechos reservados.",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "Correo electrónico"
+  }
+}

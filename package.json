@@ -1,0 +1,46 @@
+{
+  "name": "mi-portafolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint:css": "stylelint \"src/**/*.css\""
+  },
+  "author": " Marcelo Quispe Espichan",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^3.5.13",
+    "vue-i18n": "^9.14.4",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.6",
+    "@tailwindcss/postcss": "^4.1.6",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "stylelint": "^16.19.1",
+    "stylelint-config-standard": "^38.0.0",
+    "tailwindcss": "^4.1.6",
+    "vite": "^6.3.5"
+  },
+  "stylelint": {
+    "rules": {
+      "at-rule-no-unknown": [
+        true,
+        {
+          "ignoreAtRules": [
+            "apply",
+            "tailwind",
+            "variants",
+            "responsive",
+            "screen"
+          ]
+        }
+      ]
+    }
+  }
+}

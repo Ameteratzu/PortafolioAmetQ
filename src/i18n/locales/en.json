@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "title": "Hi, I'm Amet Marcelo Quispe Espichan",
+    "subtitle": "Systems and Computer Engineer, 9th-cycle student at UTP. Developer with experience in Python, database management, CI/CD and cloud environments (Azure, OpenShift, AWS).",
+    "linkedin": "LinkedIn",
+    "email": "Email"
+  },
+  "about": {
+    "title": "About Me",
+    "bio1": "I'm <strong>Amet Marcelo Quispe Espichan</strong>, a Systems Engineer in training (9th semester at UTP) passionate about web development, automation, and cloud. I design clean, scalable architectures in multidisciplinary teams.",
+    "professionalPathLabel": "Professional Path:",
+    "professionalPath": "IT Assistant at Zherobyte Spa (Nov 2022–Nov 2023), Cryptography Instructor at Salesland (Sep 2024–Nov 2024), and Azure DevOps Engineer at Digital Solutions 324 (Jan 2025–Mar 2025).",
+    "keySkillsLabel": "Key Skills:",
+    "keySkills": "Python, Flask, Vue 3, Laravel, SQL, Docker, Azure, AWS, OpenShift, and AI for process optimization and cloud security.",
+    "certificationsTitle": "Certifications"
+  },
+  "projects": {
+    "title": "My Projects",
+    "description": "Here are some of my recent projects. You can see more on my GitHub profile.",
+    "viewMore": "View more →"
+  },
+  "skills": {
+    "title": "Skills",
+    "description": "These are some of the technologies and tools I have experience with."
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "If you’d like to get in touch, fill out the form below or connect with me on social media.",
+    "fields": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message"
+    },
+    "sendButton": "Send Message",
+    "modalTitle": "Message Sent!",
+    "modalMessage": "Thank you for your message. I'll get back to you soon!",
+    "modalClose": "Close"
+  },
+  "timeline": {
+    "Nov 2022–Nov 2023": {
+      "role": "IT Assistant – Zherobyte Spa",
+      "desc": "Provided IT support, scripting to automate processes, and database administration."
+    },
+    "Sep 2024–Nov 2024": {
+      "role": "Cryptography Instructor – Salesland",
+      "desc": "Taught cryptography classes and handled customer support queries."
+    },
+    "Ene 2025–Mar 2025": {
+      "role": "Azure DevOps Engineer – Digital Solutions 324",
+      "desc": "Configured CI/CD pipelines, AKS, Kubernetes, and deployments on Azure."
+    }
+  },
+  "timelineSection": {
+    "title": "Work Experience"
+  },
+  "footer": {
+    "copy": "© 2025 Amet Marcelo Quispe. All rights reserved.",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "Email"
+  }
+}
