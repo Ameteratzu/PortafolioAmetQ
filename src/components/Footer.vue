@@ -10,7 +10,7 @@
       <!-- Iconos sociales -->
       <div class="flex space-x-4">
         <a
-          href="https://github.com/aamama"
+          href="https://github.com/Ameteratzu"
           target="_blank"
           rel="noopener"
           :aria-label="$t('footer.github')"

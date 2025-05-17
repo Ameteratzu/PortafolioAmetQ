@@ -22,7 +22,7 @@
       <div class="flex flex-wrap gap-4 justify-center md:justify-start">
         
         <a
-          href="https://github.com/aamama"
+          href="https://github.com/Ameteratzu"
           target="_blank"
           class="btn-primary inline-flex items-center gap-2 px-6 py-3 font-medium rounded-full
                  bg-white text-primary hover:bg-white/90 transition"
