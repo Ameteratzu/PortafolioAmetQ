@@ -8,8 +8,18 @@
       <div
         v-for="(img, idx) in displayImages"
         :key="idx"
-        class="flex-shrink-0 w-1/3 px-2"
+        class="flex-shrink-0
+               w-full        /* móvil: ocupa todo el ancho */
+               sm:w-1/2      /* sm (≥640px): dos por fila */
+               md:w-1/3      /* md (≥768px): tres por fila */
+               lg:w-1/4      /* lg (≥1024px): cuatro por fila */
+               px-2"
       >
+      <div
+        v-for="(img, idx) in displayImages"
+        :key="idx"
+        class="flex-shrink-0 w-1/3 px-2"
+      ></div>
         <img
           :src="img"
           :alt="$t('about.certificationsTitle')"
@@ -40,7 +50,7 @@ const displayImages = computed(() =>
 )
 
 const currentIndex = ref(0)
-const track = ref(null)
+
 
 // Estilos dinámicos: deshabilitar transición al resetear a 0
 const trackStyles = computed(() => ({

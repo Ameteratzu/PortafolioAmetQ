@@ -1,7 +1,7 @@
 <template>
   <section id="skills" class="py-20 bg-gray-50 dark:bg-darkbg px-6">
     <div class="container mx-auto max-w-3xl text-center">
-      <h2 class="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-4">
+      <h2 class="text-4xl md:text-4xl font-bold text-gray-900 dark:text-gray-100 slide-down mb-4">
         {{ $t('skills.title') }}
       </h2>
       <p class="text-lg text-gray-700 dark:text-gray-400 mb-8">
@@ -11,8 +11,8 @@
         <div
           v-for="skill in skillsList"
           :key="skill"
-          class="flex items-center space-x-2 bg-primary/10 dark:bg-accent/10
-                 px-4 py-2 rounded-full text-lg font-medium text-primary dark:text-accent"
+          class="flex items-center space-x-2 bg-primary/10 dark:bg-accent/20
+                 px-4 py-2 rounded-full text-lg font-medium text-primary dark:text-gray-200"
         >
           <img :src="getIcon(skill)" alt="" class="w-6 h-6" />
           <span>{{ skill }}</span>

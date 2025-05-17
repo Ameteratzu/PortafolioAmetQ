@@ -15,7 +15,7 @@
     "certificationsTitle": "Certifications"
   },
   "projects": {
-    "title": "My Projects",
+    "title": "Portfolio",
     "description": "Here are some of my recent projects. You can see more on my GitHub profile.",
     "viewMore": "View more →"
   },
@@ -58,5 +58,7 @@
     "github": "GitHub",
     "linkedin": "LinkedIn",
     "email": "Email"
-  }
+  },
+  "downloadCV": "Download CV"
+  
 }

@@ -1,15 +1,14 @@
 <template>
   <footer class="py-10 bg-gradient-to-r from-primary to-accent text-white">
-    <div
-      class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center"
-    >
+    <div class="container mx-auto px-6 flex flex-col items-center space-y-4
+            md:space-y-0 md:flex-row md:justify-center md:space-x-16">
       <!-- Texto traducido -->
-      <p class="text-sm">
+      <p class="text-sm text-center">
         {{ $t('footer.copy') }}
       </p>
 
-      <!-- Iconos sociales con aria-label y alt traducidos -->
-      <div class="flex space-x-4 mt-4 md:mt-0">
+      <!-- Iconos sociales -->
+      <div class="flex space-x-4">
         <a
           href="https://github.com/aamama"
           target="_blank"
@@ -59,5 +58,5 @@ export default {
 </script>
 
 <style scoped>
-/* No estilos adicionales */
+/* ningún estilo adicional */
 </style>

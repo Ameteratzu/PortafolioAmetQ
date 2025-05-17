@@ -5,7 +5,7 @@
   >
     <div class="container mx-auto max-w-3xl">
       <!-- Título de sección -->
-      <h2 class="section-title text-gray-900 dark:text-gray-100 mb-8">
+      <h2 class="section-title text-4xl md:text-4xl font-bold text-gray-900 dark:text-gray-100 slide-down mb-10">
         {{ $t('timelineSection.title') }}
       </h2>
 

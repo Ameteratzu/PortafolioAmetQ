@@ -1,27 +1,20 @@
 <template>
   <section id="projects" class="py-20 bg-gray-50 dark:bg-darkbg px-6">
     <div class="container mx-auto">
-      <!-- Título animado y traducido -->
-      <h2
-        class="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-6 text-center slide-down"
-      >
+      <!-- Título  -->
+      <h2 class="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-6 text-center slide-down">
         {{ $t('projects.title') }}
       </h2>
 
       <!-- Descripción de la sección -->
-      <p
-        class="text-center text-lg text-gray-700 dark:text-gray-400 mb-10"
-      >
+      <p class="text-center text-lg text-gray-700 dark:text-gray-400 mb-10">
         {{ $t('projects.description') }}
       </p>
 
       <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-        <div
-          v-for="p in projects"
-          :key="p.name"
+        <div v-for="p in projects" :key="p.name"
           class="bg-white dark:bg-darkbg border-2 border-primary dark:border-accent 
-                 rounded-2xl p-6 shadow-sm hover:shadow-lg transition-transform hover:scale-105"
-        >
+                 rounded-2xl p-6 shadow-sm hover:shadow-lg transition-transform hover:scale-105">
           <img
             :src="p.image"
             alt=""
@@ -38,8 +31,7 @@
             target="_blank"
             class="inline-block btn-secondary px-4 py-2 border-2 border-primary 
                    dark:border-accent rounded-full text-primary dark:text-accent 
-                   hover:bg-primary/10 dark:hover:bg-accent/10 transition"
-          >
+                   hover:bg-primary/10 dark:hover:bg-accent/10 transition">
             {{ $t('projects.viewMore') }}
           </a>
         </div>
@@ -51,7 +43,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 
-// Tus datos de proyectos (sin modificar)
+// Datos de proyectos 
 const projects = ref([
   {
     name: 'Portafolio Vue.js',
@@ -77,8 +69,6 @@ const projects = ref([
     link: 'https://cervezahuaytapallana.com',
     image: '/assets/images/project2.png',
   },
-  
-  // …tus demás proyectos
 ])
 
 // Animación del título
