@@ -6,13 +6,13 @@
     "email": "Email"
   },
   "about": {
-    "title": "About Me",
-    "bio1": "I'm <strong>Amet Marcelo Quispe Espichan</strong>, a Systems Engineer in training (9th semester at UTP) passionate about web development, automation, and cloud. I design clean, scalable architectures in multidisciplinary teams.",
-    "professionalPathLabel": "Professional Path:",
-    "professionalPath": "IT Assistant at Zherobyte Spa (Nov 2022–Nov 2023), Cryptography Instructor at Salesland (Sep 2024–Nov 2024), and Azure DevOps Engineer at Digital Solutions 324 (Jan 2025–Mar 2025).",
-    "keySkillsLabel": "Key Skills:",
-    "keySkills": "Python, Flask, Vue 3, Laravel, SQL, Docker, Azure, AWS, OpenShift, and AI for process optimization and cloud security.",
-    "certificationsTitle": "Certifications"
+  "title": "About Me",
+  "bio1": "I’m Amet Marcelo Quispe Espichan, a Systems and Informatics Engineer. I’m passionate about modern web development and automation, especially in cloud environments like Azure and AWS. I have consistently stood out academically, ranking in the top third during both 4th and 5th years of high school, and in the early semesters of university.",
+  
+  "recognitionTitle": "Recognition",
+  "recognitionText": "I was awarded a certificate of commendation by the Commander General of the Peruvian Army, in recognition of my contribution to the development of a data management and troop identification system. This implementation delivered tangible operational benefits to the military institution.",
+  
+  "certificationsTitle": "Certifications"
   },
   "projects": {
     "title": "Portfolio",

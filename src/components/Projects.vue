@@ -60,7 +60,7 @@ const projects = ref([
   {
     name: 'Formulario de registro',
     description: 'Aplicación web para gestionar tareas y proyectos, desarrollada con Django y React.',
-    link: 'https://cervezahuaytapallana.com',
+    link: 'formularioapruebaamet.netlify.app',
     image: '/assets/images/project2.png',
   },
   {

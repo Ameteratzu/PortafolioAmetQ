@@ -6,13 +6,13 @@
     "email": "Correo electrónico"
   },
   "about": {
-    "title": "Sobre mí",
-    "bio1": "Soy <strong>Amet Marcelo Quispe Espichan</strong>, Ingeniero de Sistemas en formación (9° ciclo en UTP) con pasión por desarrollo web, automatización y nube. Diseño arquitecturas limpias y escalables en equipos multidisciplinares.",
-    "professionalPathLabel": "Ruta profesional:",
-    "professionalPath": "Asistente TI en Zherobyte Spa (Nov 2022–Nov 2023), Profesor de Criptografía en Salesland (Sep 2024–Nov 2024) y Azure DevOps Engineer en Digital Solutions 324 (Ene 2025–Mar 2025).",
-    "keySkillsLabel": "Habilidades clave:",
-    "keySkills": "Python, Flask, Vue 3, Laravel, SQL, Docker, Azure, AWS, OpenShift e IA para optimización y seguridad en la nube.",
-    "certificationsTitle": "Certificaciones"
+  "title": "Sobre mí",
+  "bio1": "Soy Amet Marcelo Quispe Espichan, Ingeniero de Sistemas e Informática. Me apasiona el desarrollo web moderno y la automatización de procesos, especialmente en entornos cloud como Azure y AWS. Desde mis años escolares destaqué académicamente, formando parte del tercio superior en 4° y 5° de secundaria, así como en los primeros ciclos universitarios.",
+  
+  "recognitionTitle": "Reconocimientos",
+  "recognitionText": "Recibí una constancia de felicitación por parte del Comandante General del Ejército del Perú, como reconocimiento a mi aporte en la creación de un sistema de manejo de datos e identificación de tropas militares. Esta implementación generó beneficios tangibles y operativos dentro de la institución militar.",
+  
+  "certificationsTitle": "Certificaciones"
   },
   "projects": {
     "title": "Portafolio",
