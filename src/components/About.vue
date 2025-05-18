@@ -49,11 +49,32 @@ import Timeline from './Timeline.vue'
 
 // Rutas absolutas en public/
 const certImages = [
-  '/certificaciones/cert1.jpg',
-  '/certificaciones/cert2.jpg',
-  '/certificaciones/cert3.jpg',
-  // …añadir más
+  {
+    image: '/certificaciones/cert1.jpg',
+    title: 'Vue.js Avanzado',
+    institution: 'Platzi',
+    year: 2023,
+    tags: ['Frontend', 'Avanzado'],
+    link: 'https://platzi.com/certificado/vue'
+  },
+  {
+    image: '/certificaciones/cert2.jpg',
+    title: 'APIs con Laravel',
+    institution: 'Udemy',
+    year: 2022,
+    tags: ['Backend', 'Laravel'],
+    link: 'https://udemy.com/cert/laravel'
+  },
+  {
+    image: '/certificaciones/cert3.jpg',
+    title: 'GitHub para Devs',
+    institution: 'Coursera',
+    year: 2023,
+    tags: ['DevOps', 'Herramientas'],
+    link: 'https://coursera.org/certificate/github'
+  }
 ]
+
 
 // Animación de título
 const title = ref(null)

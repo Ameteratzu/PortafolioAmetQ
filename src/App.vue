@@ -1,5 +1,4 @@
 <script setup>
-import VueScrollTo from 'vue-scrollto';
 import './style.css'
 import { ref, onMounted, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
@@ -102,32 +101,22 @@ function toggleTheme() {
       </button>
     </div>
 
-    <!-- Navegación fija -->
+    <!-- Navbar fijo -->
     <Navbar />
 
-    <!-- Scroll control -->
-    <div class="sr-only">
-      <!-- Anchor helpers for vue-scrollto -->
-      <div id="hero"></div>
-      <div id="about"></div>
-      <div id="skills"></div>
-      <div id="projects"></div>
-      <div id="contact"></div>
-    </div>
-
-    <!-- Secciones principales -->
+    <!-- Secciones principales con scroll-mt -->
     <main class="pt-16 px-4 sm:px-6 lg:px-0 space-y-16 flex-1">
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
+      <section id="hero" class="scroll-mt-24"><Hero /></section>
+      <section id="about" class="scroll-mt-24"><About /></section>
+      <section id="skills" class="scroll-mt-24"><Skills /></section>
+      <section id="projects" class="scroll-mt-24"><Projects /></section>
+      <section id="contact" class="scroll-mt-24"><Contact /></section>
     </main>
 
     <!-- Footer -->
     <Footer />
 
-    <!-- Botón Descargar CV -->
+    <!-- Botón de descarga -->
     <a
       href="/CV.pdf"
       download="CV_Amet_Quispe.pdf"
@@ -140,32 +129,8 @@ function toggleTheme() {
   </div>
 </template>
 
-<style scoped>
-@keyframes earth-rotation {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-.earth-spin {
-  display: inline-block;
-  animation: earth-rotation 20s linear infinite;
-  transform-origin: center;
-}
-
+<style>
 html {
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-</style>
-
-<style scoped>
-@keyframes earth-rotation {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-.earth-spin {
-  display: inline-block;
-  animation: earth-rotation 20s linear infinite;
-  transform-origin: center;
+  scroll-behavior: smooth;
 }
 </style>
