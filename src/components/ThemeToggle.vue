@@ -1,17 +1,12 @@
 <template>
-  <button @click="$emit('toggle')" class="px-3 py-1 border rounded">
-    {{ current === 'light' ? '🌙 Dark' : '🔆 Light' }}
-  </button>
+  <!-- Este componente ha sido desactivado -->
+  <!-- El control de tema se gestiona directamente en Navbar.vue -->
 </template>
 
 <script setup>
-import { computed } from 'vue'
-const current = computed(() => 
-  localStorage.getItem('theme') 
-    || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
-)
+// No se requiere lógica aquí
 </script>
 
 <style scoped>
-button { background: none; cursor: pointer; }
+/* Sin estilos ya que el componente está desactivado */
 </style>

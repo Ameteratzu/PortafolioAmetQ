@@ -1,4 +1,5 @@
 <script setup>
+import VueScrollTo from 'vue-scrollto';
 import './style.css'
 import { ref, onMounted, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
@@ -55,27 +56,23 @@ function toggleTheme() {
     <!-- Controles fijos: idioma + tema -->
     <div class="fixed top-2 right-4 z-50 flex items-center space-x-3">
       <!-- Selector de idioma -->
-      <div class="relative">
+      <div class="relative" role="menu" aria-label="Selector de idioma">
         <button
           @click="showLang = !showLang"
           class="flex items-center space-x-2 px-3 py-1 border-2 rounded-full 
-                 bg-transparent border-primary dark:border-gray-300
+                 bg-white/90 dark:bg-darkbg border-primary dark:border-gray-300
                  text-primary dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-700 transition"
         >
-          <span>{{ locales.find(l=>l.code===locale)?.flag }}</span>
-          <span class="text-sm font-medium">{{ locale.toUpperCase() }}</span>
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 transition-transform"
-               :class="{ 'rotate-180': showLang }" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M19 9l-7 7-7-7" />
-          </svg>
+          <img src="/rotating_earth.gif" alt="Tierra girando" class="w-6 h-6 object-contain" />
+          <span class="text-sm font-medium">{{ locales.find(l=>l.code===locale)?.label }}</span>
         </button>
         <ul
           v-if="showLang"
-          class="absolute right-0 mt-2 w-36 bg-white dark:bg-darkbg border border-gray-200 dark:border-gray-700 
-                 rounded-lg shadow-lg overflow-hidden"
+          class="absolute right-0 mt-2 w-40 bg-white dark:bg-darkbg border border-gray-200 dark:border-gray-700 
+                 rounded-lg shadow-md overflow-hidden py-1"
+          role="menu"
         >
-          <li v-for="l in locales" :key="l.code">
+          <li v-for="l in locales" :key="l.code" role="menuitem">
             <button
               @click="selectLocale(l.code)"
               class="w-full text-left px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 
@@ -108,6 +105,16 @@ function toggleTheme() {
     <!-- Navegación fija -->
     <Navbar />
 
+    <!-- Scroll control -->
+    <div class="sr-only">
+      <!-- Anchor helpers for vue-scrollto -->
+      <div id="hero"></div>
+      <div id="about"></div>
+      <div id="skills"></div>
+      <div id="projects"></div>
+      <div id="contact"></div>
+    </div>
+
     <!-- Secciones principales -->
     <main class="pt-16 px-4 sm:px-6 lg:px-0 space-y-16 flex-1">
       <Hero />
@@ -132,3 +139,33 @@ function toggleTheme() {
     </a>
   </div>
 </template>
+
+<style scoped>
+@keyframes earth-rotation {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.earth-spin {
+  display: inline-block;
+  animation: earth-rotation 20s linear infinite;
+  transform-origin: center;
+}
+
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+</style>
+
+<style scoped>
+@keyframes earth-rotation {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.earth-spin {
+  display: inline-block;
+  animation: earth-rotation 20s linear infinite;
+  transform-origin: center;
+}
+</style>
