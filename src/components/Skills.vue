@@ -59,7 +59,7 @@ const categorizedSkills = {
     { name: 'JavaScript', level: 'Avanzado' },
     { name: 'TypeScript', level: 'Básico' },
     { name: 'Vue 3', level: 'Avanzado' },
-    { name: 'React', level: 'Básico' }
+    { name: 'React', level: 'Intermedio' }
   ],
   Backend: [
     { name: 'PHP', level: 'Intermedio' },
